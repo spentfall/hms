@@ -158,7 +158,7 @@ export function PatientProfile() {
                         </div>
 
                         <div className="space-y-4">
-                            {patient.appointments?.length > 0 ? (
+                            {patient.appointments && patient.appointments.length > 0 ? (
                                 patient.appointments.map((appointment: any) => (
                                     <div
                                         key={appointment.id}
@@ -214,7 +214,7 @@ export function PatientProfile() {
                             )}
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {(patient.labResults?.length || 0) > 0 ? (
+                            {patient.labResults && patient.labResults.length > 0 ? (
                                 patient.labResults.map((result: any) => (
                                     <div
                                         key={result.id}
