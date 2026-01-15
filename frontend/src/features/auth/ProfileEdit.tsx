@@ -4,7 +4,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { doctorService } from '../../services/doctorService';
 import { patientService } from '../../services/patientService';
 import { userService } from '../../services/userService';
-import { Save, User, Phone, MapPin, Camera, Loader2, Info, ArrowLeft, Sun, Moon, Bell, Shield, Languages, Palette, LogOut } from 'lucide-react';
+import { Save, User, Phone, MapPin, Camera, Loader2, Info, ArrowLeft, Sun, Moon, Bell, Languages, Palette, LogOut } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../lib/utils';
 import { ChangePasswordModal } from './ChangePasswordModal';
@@ -34,6 +34,7 @@ export function ProfileEdit() {
         queryFn: () => isDoctor ? doctorService.getById(user!.profileId!) : patientService.getById(user!.profileId!),
         enabled: !!user?.profileId,
     });
+
 
     useEffect(() => {
         if (profile) {

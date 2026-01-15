@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 export function DoctorHome() {
     const { user } = useAuth();
 
-    const { data: appointments, isLoading } = useQuery({
+    const { data: appointments } = useQuery({
         queryKey: ['appointments', 'doctor', user?.profileId],
         queryFn: () => appointmentService.getByDoctor(user?.profileId!),
         enabled: !!user?.profileId,
