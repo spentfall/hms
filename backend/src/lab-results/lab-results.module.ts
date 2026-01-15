@@ -1,0 +1,12 @@
+import { Module } from '@nestjs/common';
+import { LabResultsService } from './lab-results.service';
+import { LabResultsController } from './lab-results.controller';
+import { PrismaModule } from '../prisma/prisma.module';
+
+@Module({
+    imports: [PrismaModule],
+    controllers: [LabResultsController],
+    providers: [LabResultsService],
+    exports: [LabResultsService],
+})
+export class LabResultsModule { }

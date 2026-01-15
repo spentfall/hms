@@ -1,0 +1,20 @@
+total 420
+drwxr-xr-x. 1 isaacabragesh isaacabragesh    366 Jan 11 20:43 .
+drwxr-xr-x. 1 isaacabragesh isaacabragesh    124 Jan 11 19:19 ..
+-rw-r--r--. 1 isaacabragesh isaacabragesh    194 Jan 11 20:36 dev.log
+drwxr-xr-x. 1 root          root              70 Jan 11 18:52 dist
+-rw-r--r--. 1 isaacabragesh isaacabragesh    156 Jan  9 19:55 .env
+-rw-r--r--. 1 isaacabragesh isaacabragesh    899 Jan  9 18:29 eslint.config.mjs
+-rw-r--r--. 1 isaacabragesh isaacabragesh      0 Jan 11 20:43 ls_output.txt
+-rw-r--r--. 1 isaacabragesh isaacabragesh    171 Jan  9 18:29 nest-cli.json
+drwxr-xr-x. 1 isaacabragesh isaacabragesh  10776 Jan 10 12:10 node_modules
+-rw-r--r--. 1 isaacabragesh isaacabragesh   2473 Jan 10 00:07 package.json
+-rw-r--r--. 1 isaacabragesh isaacabragesh 383378 Jan 11 19:51 package-lock.json
+-rw-r--r--. 1 isaacabragesh isaacabragesh     52 Jan  9 18:29 .prettierrc
+drwxr-xr-x. 1 isaacabragesh isaacabragesh     60 Jan 10 00:06 prisma
+-rw-r--r--. 1 isaacabragesh isaacabragesh   5028 Jan  9 18:29 README.md
+-rw-r--r--. 1 isaacabragesh isaacabragesh    783 Jan 10 01:45 seed-departments.js
+drwxr-xr-x. 1 isaacabragesh isaacabragesh    264 Jan 11 17:08 src
+drwxr-xr-x. 1 isaacabragesh isaacabragesh     56 Jan  9 18:29 test
+-rw-r--r--. 1 isaacabragesh isaacabragesh     97 Jan  9 18:29 tsconfig.build.json
+-rw-r--r--. 1 isaacabragesh isaacabragesh    674 Jan  9 18:29 tsconfig.json
